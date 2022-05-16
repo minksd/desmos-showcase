@@ -42,7 +42,7 @@ function App() {
 
           <div class="image">
             <div class="overlay">
-            <div class='description'>Exaggerates the illusion of a circle rolling around another circle by moving N amount of points along their respective straight lines throughout a circle.</div>
+            <div class='description'>Exaggerates the illusion of a circle rolling inside another circle by moving N amount of points along their respective straight lines throughout a circle.</div>
               <a href="https://www.desmos.com/calculator/wymcboh9vt" target="_blank" rel="noreferrer">
                 Circle Illusion
               </a>
@@ -87,7 +87,7 @@ function App() {
           </div>
           <div class="image">
             <div class="overlay">
-            <div class='description'>Factors an arbitrary positive integer into its prime components.</div>
+            <div class='description'>Factors an arbitrary positive integer into all possible components.</div>
               <a href="https://www.desmos.com/calculator/ch97ekpd1r" target="_blank" rel="noreferrer">
                 Factoring
               </a>
@@ -248,6 +248,8 @@ function App() {
             <img src={DecimalToFractionConverter}></img>
           </div>
         </ul>
+        <text class = "credits"> Michael Ulivarri | michaelu0405@gmail.com - </text>
+        <text class="credits"> Daniel Minks | danielminks1230@gmail.com</text>
       </body>
     </div>
   );

@@ -9,15 +9,19 @@
   padding: 5%;
 }
 a{
+  font-size: 1.3vw; 
   position:absolute;
   right:3%;
   bottom:3%;
 }
 .description {
-  margin-left:5%;
-  margin-right:5%;
-  position:absolute;
-  bottom:50%
+  margin:calc(auto+3%);
+  width:100%;
+  top:25%;
+  height: 60%;
+  font-size: 1.3vw; 
+  position:relative;
+
 }
 .overlay {
   position: absolute;
@@ -47,7 +51,12 @@ width: 100%;
 .image:hover .overlay {
   opacity: 0.85;
 }
-
+.credits{
+  float:middle;
+  size:1vh;
+  color:white;
+  padding-bottom:3vh;
+}
 .App-header {
   background-color: #282c34;
   min-height: 15vh;
@@ -62,11 +71,15 @@ Body {
   align-self: center;
   min-height: 100vh;
   background-image: url("./previews/noisy-texture-300x300-o15-d36-c-555555-t0.png");
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .App-link {
   color: #61dafb;
 }
+
+
 html {
   align-content: center;
+
 }
